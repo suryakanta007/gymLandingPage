@@ -80,8 +80,8 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-        <div className="absolute inset-0 w-full h-full">
+      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 ">
+        <div className="absolute inset-0 w-full h-full ">
           <div className="absolute inset-0 bg-black/70 z-10"></div>
           <div className="relative w-full h-full overflow-hidden back bg-custom-radial">
           

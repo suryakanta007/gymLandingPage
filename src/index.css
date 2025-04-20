@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -16,12 +17,10 @@
     @apply cursor-pointer hover:text-gym-red transition-colors duration-300;
   }
   .btn-primary {
-    @apply bg-gym-red text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-all duration-300;
+    @apply bg-gym-red text-white px-6 py-2 rounded-lg hover:bg-gym-red transition-all duration-300;
   }
   .section-title {
     @apply text-3xl md:text-4xl font-bold mb-8 text-center;
   }
-  .gradient-bg {
-    @apply bg-gradient-radial from-gym-red/20 via-gym-black to-gym-black;
-  }
+  /* .gradient-bg removed for Tailwind v2 compatibility */
 }
